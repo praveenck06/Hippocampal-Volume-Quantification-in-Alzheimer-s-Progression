@@ -9,14 +9,14 @@ A radiological study via MRI exam is currently one of the most advanced methods 
 
 The hippocampus is a critical structure of the human brain (and the brain of other vertebrates) that plays important roles in the consolidation of information from short-term memory to long-term memory. In other words, the hippocampus is thought to be responsible for memory and learning (that's why we are all here, after all!)
 
-<figure >
-  <img src="EDA\notebook_images\Hippocampus_small.gif" style="align: center;">
+<figure style="margin: 0 auto;">
+  <img src="EDA\notebook_images\Hippocampus_small.gif" style="margin: 0 auto;">
   </img>
   <figcaption>Hippocampus <br>Source: Life Science Databases (LSDB). Hippocampus. Images are from Anatomography maintained by Life Science Databases (LSDB). (2010). CC-BY-SA 2.1jp.</figcaption>
 </figure>
 
 Humans have two hippocampi, one in each hemisphere of the brain. They are located in the medial temporal lobe of the brain. Fun fact - the word "hippocampus" is roughly translated from Greek as "horselike" because of the similarity to a seahorse observed by one of the first anatomists to illustrate the structure, but you can also see the comparison in the following image.
-<figure>
+<figure style="margin: 0 auto;">
   <img src="EDA\notebook_images\hippocampus-and-seahorse-cropped.jpg"></img>
   <figcaption style="text-align: center;">Seahorse & Hippocampus</figcaption>
   <figcaption style="text-align: center;">Source: Seress, Laszlo. Laszlo Seress' preparation of a human hippocampus alongside a sea horse. (1980). CC-BY-SA 1.0.</figcaption>
