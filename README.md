@@ -18,7 +18,7 @@ The hippocampus is a critical structure of the human brain (and the brain of oth
 ###
 Humans have two hippocampi, one in each hemisphere of the brain. They are located in the medial temporal lobe of the brain. Fun fact - the word "hippocampus" is roughly translated from Greek as "horselike" because of the similarity to a seahorse observed by one of the first anatomists to illustrate the structure, but you can also see the comparison in the following image.
 <figure >
-  <img src="EDA\notebook_images\hippocampus-and-seahorse-cropped.jpg" ></img>
+  <img src="EDA\notebook_images\hippocampus-and-seahorse-cropped.jpg" style="height:60px; width:80px; margin: 0 auto;"></img>
   <figcaption style="text-align: center;">Seahorse & Hippocampus <br> Source: Seress, Laszlo. Laszlo Seress' preparation of a human hippocampus alongside a sea horse. (1980). CC-BY-SA 1.0.</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ According to <a target="_blank" href="https://www.sciencedirect.com/science/arti
 You can see this in the image below where the right hippocampal volume of women across ages 52 - 71 is shown. 
 
 <figure >
-  <img src="EDA\notebook_images\nomogram_fem_right.svg" style="height:460px; width:400px;"></img>
+  <img src="EDA\notebook_images\nomogram_fem_right.svg" style="height:60px; width:80px;"></img>
   <figcaption style="text-align: center;">Nomogram - Female, Right Hippocampus Volume, Corrected for Head Size<br>Source: Nobis, L., Manohar, S.G., Smith, S.M., Alfaro-Almagro, F., Jenkinson, M., Mackay, C.E., Husain, M.<br>Hippocampal volume across age: Nomograms derived from over 19,700 people in UK Biobank.<br>Neuroimage: Clinical, 23(2019), pp. 2213-1582. </figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ There is one problem with measuring the volume of the hippocampus using MRI scan
 
 
 <figure >
-  <img src="EDA\notebook_images\mri.jpg" style="height:360px; width:300px;"></img>
+  <img src="EDA\notebook_images\mri.jpg" style="height:60px; width:80px;"></img>
   <figcaption style="text-align: center;">Axial slice of an MRI image of the brain</figcaption>
 </figure>
 
