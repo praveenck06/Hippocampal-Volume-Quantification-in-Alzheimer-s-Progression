@@ -18,7 +18,7 @@ The hippocampus is a critical structure of the human brain (and the brain of oth
 ###
 Humans have two hippocampi, one in each hemisphere of the brain. They are located in the medial temporal lobe of the brain. Fun fact - the word "hippocampus" is roughly translated from Greek as "horselike" because of the similarity to a seahorse observed by one of the first anatomists to illustrate the structure, but you can also see the comparison in the following image.
 <figure >
-  <img src="EDA\notebook_images\hippocampus-and-seahorse-cropped.jpg" style="height:260px; width:400px; margin: 0 auto;"></img>
+  <img src="EDA\notebook_images\hippocampus-and-seahorse-cropped.jpg" ></img>
   <figcaption style="text-align: center;">Seahorse & Hippocampus <br> Source: Seress, Laszlo. Laszlo Seress' preparation of a human hippocampus alongside a sea horse. (1980). CC-BY-SA 1.0.</figcaption>
 </figure>
 
