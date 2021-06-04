@@ -28,40 +28,43 @@ According to <a target="_blank" href="https://www.sciencedirect.com/science/arti
 
 
 ## Training results
-<div style="padding: 0 4px;display: flex;align-items: center;justify-content: space-between;">
-  <div style="float: left;  padding: 6px;">
-    <img src="Model Training\images\train_image.png" style="width: 260px; height:260px">
+<table>
+  <tr>
+  <td valign="top">
+    <img src="Model Training\images\train_image.png" >
         <figcaption style="text-align: center;">Training image</figcaption>
-  </div>
-  <div style="float: left;  padding: 6px;">
-    <img src="Model Training\images\val_image.png" style="width: 260px; height:260px">
-        <figcaption style="text-align: center;">Training mask</figcaption></img>
-  </div>
-  <div style="float: left;  padding: 6px;">
-    <img src="Model Training\images\train_prediction.png" style="width: 260px; height:260px">
+      </img>
+  </td>
+  <td valign="top">
+    <img src="Model Training\images\val_image.png">
+        <figcaption style="text-align: center;">Training mask</figcaption>
+    </img>
+  </td>
+  <td valign="top">
+    <img src="Model Training\images\train_prediction.png" >
         <figcaption style="text-align: center;">Training prediction</figcaption></img>
-  </div>
-  <div style="float: left;  padding: 6px;">
-    <img src="Model Training\images\train_prob_map.png" style="width: 260px; height:260px">
+  </td>
+  <td valign="top">
+    <img src="Model Training\images\train_prob_map.png" >
         <figcaption style="text-align: center;">Training probability map</figcaption></img>
-  </div>
-</div>
-
-<div style="padding: 0 4px;display: flex;align-items: center;justify-content: space-between;">
-  <div style="float: left;  padding: 6px;">
-    <img src="Model Training\images\val_image.png" style="width: 260px; height:260px">
-        <figcaption style="text-align: center;">Validation image</figcaption>
-  </div>
-  <div style="float: left;  padding: 6px;">
-    <img src="Model Training\images\val_mask.png" style="width: 260px; height:260px">
+  </td>
+  </tr>
+<tr>
+  <td valign="top">
+    <img src="Model Training\images\val_image.png" >
+        <figcaption style="text-align: center;">Validation image</figcaption></img>
+</td>
+  <td valign="top">
+    <img src="Model Training\images\val_mask.png" >
         <figcaption style="text-align: center;">Validation mask</figcaption></img>
-  </div>
-  <div style="float: left;  padding: 6px;">
-    <img src="Model Training\images\val_prediction.png" style="width: 260px; height:260px">
+  </td>
+  <td valign="top">
+    <img src="Model Training\images\val_prediction.png" >
         <figcaption style="text-align: center;">Validation prediction</figcaption></img>
-  </div>
-  <div style="float: left;  padding: 6px;">
-    <img src="Model Training\images\val_prob_map.png" style="width: 260px; height:260px">
+  </td>
+  <td valign="top">
+    <img src="Model Training\images\val_prob_map.png" >
         <figcaption style="text-align: center;">Validation probability map</figcaption></img>
-  </div>
-</div>
+  </td>
+</tr>
+</table>
