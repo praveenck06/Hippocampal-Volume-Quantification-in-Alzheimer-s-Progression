@@ -9,8 +9,8 @@ A radiological study via MRI exam is currently one of the most advanced methods 
 
 The hippocampus is a critical structure of the human brain (and the brain of other vertebrates) that plays important roles in the consolidation of information from short-term memory to long-term memory. In other words, the hippocampus is thought to be responsible for memory and learning (that's why we are all here, after all!)
 
-<figure style="display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;">
-  <img src="EDA\notebook_images\Hippocampus_small.gif">
+<figure >
+  <img src="EDA\notebook_images\Hippocampus_small.gif" style="align: center;">
   </img>
   <figcaption>Hippocampus <br>Source: Life Science Databases (LSDB). Hippocampus. Images are from Anatomography maintained by Life Science Databases (LSDB). (2010). CC-BY-SA 2.1jp.</figcaption>
 </figure>
