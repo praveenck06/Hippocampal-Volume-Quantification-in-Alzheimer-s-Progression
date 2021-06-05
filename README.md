@@ -28,7 +28,7 @@ According to <a target="_blank" href="https://www.sciencedirect.com/science/arti
 You can see this in the image below where the right hippocampal volume of women across ages 52 - 71 is shown. 
 
 <figure >
-  <img src="EDA\notebook_images\nomogram_fem_right.svg" style="height:460px; width:400px;"></img>
+  <img src="EDA\notebook_images\nomogram_fem_right.png" style="height:460px; width:400px;"></img>
   <figcaption style="text-align: center; font-size: small;">Nomogram - Female, Right Hippocampus Volume, Corrected for Head Size<br>Source: Nobis, L., Manohar, S.G., Smith, S.M., Alfaro-Almagro, F., Jenkinson, M., Mackay, C.E., Husain, M.<br>Hippocampal volume across age: Nomograms derived from over 19,700 people in UK Biobank.<br>Neuroimage: Clinical, 23(2019), pp. 2213-1582. </figcaption>
 </figure>
 
