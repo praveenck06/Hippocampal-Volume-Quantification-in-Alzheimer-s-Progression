@@ -1,0 +1,3 @@
+pip install MedPy tensorboard sklearn
+
+sklearn
