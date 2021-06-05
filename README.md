@@ -12,14 +12,14 @@ The hippocampus is a critical structure of the human brain (and the brain of oth
 <figure>
   <img src="EDA\notebook_images\Hippocampus_small.gif" style="margin: 0 auto;">
   </img>
-  <figcaption style="text-align: center;">Hippocampus <br>Source: Life Science Databases (LSDB). Hippocampus. Images are from Anatomography maintained by Life Science Databases (LSDB). (2010). CC-BY-SA 2.1jp.</figcaption>
+  <figcaption style="text-align: center; font-size: small;">Hippocampus <br>Source: Life Science Databases (LSDB). Hippocampus. Images are from Anatomography maintained by Life Science Databases (LSDB). (2010). CC-BY-SA 2.1jp.</figcaption>
 </figure>
 
 ###
 Humans have two hippocampi, one in each hemisphere of the brain. They are located in the medial temporal lobe of the brain. Fun fact - the word "hippocampus" is roughly translated from Greek as "horselike" because of the similarity to a seahorse observed by one of the first anatomists to illustrate the structure, but you can also see the comparison in the following image.
 <figure >
-  <img src="EDA\notebook_images\hippocampus-and-seahorse-cropped.jpg" style="height:60px; width:80px; margin: 0 auto;"></img>
-  <figcaption style="text-align: center;">Seahorse & Hippocampus <br> Source: Seress, Laszlo. Laszlo Seress' preparation of a human hippocampus alongside a sea horse. (1980). CC-BY-SA 1.0.</figcaption>
+  <img src="EDA\notebook_images\hippocampus-and-seahorse-cropped.jpg" style="height:260px; width:400px; margin: 0 auto;"></img>
+  <figcaption style="text-align: center; font-size: small;">Seahorse & Hippocampus <br> Source: Seress, Laszlo. Laszlo Seress' preparation of a human hippocampus alongside a sea horse. (1980). CC-BY-SA 1.0.</figcaption>
 </figure>
 
 ###
@@ -28,8 +28,8 @@ According to <a target="_blank" href="https://www.sciencedirect.com/science/arti
 You can see this in the image below where the right hippocampal volume of women across ages 52 - 71 is shown. 
 
 <figure >
-  <img src="EDA\notebook_images\nomogram_fem_right.svg" style="height:60px; width:80px;"></img>
-  <figcaption style="text-align: center;">Nomogram - Female, Right Hippocampus Volume, Corrected for Head Size<br>Source: Nobis, L., Manohar, S.G., Smith, S.M., Alfaro-Almagro, F., Jenkinson, M., Mackay, C.E., Husain, M.<br>Hippocampal volume across age: Nomograms derived from over 19,700 people in UK Biobank.<br>Neuroimage: Clinical, 23(2019), pp. 2213-1582. </figcaption>
+  <img src="EDA\notebook_images\nomogram_fem_right.svg" style="height:460px; width:400px;"></img>
+  <figcaption style="text-align: center; font-size: small;">Nomogram - Female, Right Hippocampus Volume, Corrected for Head Size<br>Source: Nobis, L., Manohar, S.G., Smith, S.M., Alfaro-Almagro, F., Jenkinson, M., Mackay, C.E., Husain, M.<br>Hippocampal volume across age: Nomograms derived from over 19,700 people in UK Biobank.<br>Neuroimage: Clinical, 23(2019), pp. 2213-1582. </figcaption>
 </figure>
 
 ###
@@ -38,8 +38,8 @@ There is one problem with measuring the volume of the hippocampus using MRI scan
 
 
 <figure >
-  <img src="EDA\notebook_images\mri.jpg" style="height:60px; width:80px;"></img>
-  <figcaption style="text-align: center;">Axial slice of an MRI image of the brain</figcaption>
+  <img src="EDA\notebook_images\mri.jpg" style="height:360px; width:300px;"></img>
+  <figcaption style="text-align: center; font-size: small;">Axial slice of an MRI image of the brain</figcaption>
 </figure>
 
 ### Project Goal 
@@ -57,52 +57,62 @@ We used the "Hippocampus" dataset from the <a target="_blank" href="http://medic
 Here we performed exploratory data analyis and curated the dataset for segmentation model training. Dataset consisted of 263 volumes out of which 3 were out liers (2 of them were CT scans of chest and 1 volume did not accompany with segmentation mask).  
 <figure >
   <img src="EDA\notebook_images\image_segmentaion_mask.png"></img>
-  <figcaption style="text-align: center;">Image and segmentation mask</figcaption>
+  <figcaption style="text-align: center; font-size: small;">Image and segmentation mask</figcaption>
 </figure>
 
+###
 <figure >
   <img src="EDA\notebook_images\hippocampal_volume_distribution.png"></img>
-  <figcaption style="text-align: center;">Hippocampal volume distribution in dataset</figcaption>
+  <figcaption style="text-align: center; font-size: small;">Hippocampal volume distribution in dataset</figcaption>
 </figure>
 
-### Training results
+
+### 2. Training a segmentation CNN
+
+We used PyTorch to train the segmentation model and Tensorboard to visualize the results.
+<figure >
+  <img src="Model Training\Train_val_loss_plot.svg"></img>
+  <figcaption style="text-align: center; font-size: small;">Train and Validation loss plot</figcaption>
+</figure>
+
+##### Training results
 <table>
   <tr>
   <td valign="top">
     <img src="Model Training\images\train_image.png" >
-        <figcaption style="text-align: center;">Training image</figcaption>
+        <figcaption style="text-align: center; font-size: small;">Training image</figcaption>
       </img>
   </td>
   <td valign="top">
     <img src="Model Training\images\val_image.png">
-        <figcaption style="text-align: center;">Training mask</figcaption>
+        <figcaption style="text-align: center; font-size: small;">Training mask</figcaption>
     </img>
   </td>
   <td valign="top">
     <img src="Model Training\images\train_prediction.png" >
-        <figcaption style="text-align: center;">Training prediction</figcaption></img>
+        <figcaption style="text-align: center; font-size: small;">Training prediction</figcaption></img>
   </td>
   <td valign="top">
     <img src="Model Training\images\train_prob_map.png" >
-        <figcaption style="text-align: center;">Training probability map</figcaption></img>
+        <figcaption style="text-align: center; font-size: small;">Training probability map</figcaption></img>
   </td>
   </tr>
 <tr>
   <td valign="top">
     <img src="Model Training\images\val_image.png" >
-        <figcaption style="text-align: center;">Validation image</figcaption></img>
+        <figcaption style="text-align: center; font-size: small;">Validation image</figcaption></img>
 </td>
   <td valign="top">
     <img src="Model Training\images\val_mask.png" >
-        <figcaption style="text-align: center;">Validation mask</figcaption></img>
+        <figcaption style="text-align: center; font-size: small;">Validation mask</figcaption></img>
   </td>
   <td valign="top">
     <img src="Model Training\images\val_prediction.png" >
-        <figcaption style="text-align: center;">Validation prediction</figcaption></img>
+        <figcaption style="text-align: center; font-size: small;">Validation prediction</figcaption></img>
   </td>
   <td valign="top">
     <img src="Model Training\images\val_prob_map.png" >
-        <figcaption style="text-align: center;">Validation probability map</figcaption></img>
+        <figcaption style="text-align: center; font-size: small;">Validation probability map</figcaption></img>
   </td>
 </tr>
 </table>
